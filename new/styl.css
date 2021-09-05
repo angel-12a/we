@@ -258,7 +258,6 @@ a:hover , a:active{
     }
 
     .body{
-        background-color:rgb(66, 77, 73) ;
         background-attachment: fixed;
         background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url('imgbody.jfif') ;
 
