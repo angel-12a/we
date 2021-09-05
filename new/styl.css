@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    width: 90%;
+    margin:10px auto ;
+    text-align: left;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url('imgbody.jfif') ;
+    background-position:center ;
+    background-size: cover ;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.5;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:link,a:visited{
+    color: white;
+}
+
+a:hover , a:active{
+    color: rgb(110, 69, 108);
+}
+/*---------------------mainheader--------------------------*/
+
+
+ h1{
+    color: white;
+}
+
+.penk{
+    color: rgb(110, 69, 108);
+}
+
+
+.mainheader nav{
+    float: right;
+    margin-top: -60px;
+    margin-right: 400px;
+
+}
+
+.mainheader nav td{
+    padding: 12px;
+}
+
+.mainheader nav a{
+    font-size: 25px;
+}
+
+.serch{
+    margin-top:-45px ;
+    float: right;
+    margin-right: 20px;
+    width: 330px;
+}
+
+.srch{
+    width: 200px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background:transparent ;
+    font-size: 16px;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: white;
+    float: left;
+    padding: 10px;
+    border: 1px solid rgb(146, 101, 135) ;
+}
+
+.bt{
+    width: 100px;
+    height: 40px;
+    background-color:rgb(146, 101, 135) ;
+    border: 2px solid rgb(146, 101, 135) ;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+   border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+
+}
+
+.bt:focus{
+    outline: none;
+}
+
+.srch :focus{
+    outline: none;
+}
+
+/*------------------maincontact----------------------*/
+
+
+.maincontact{
+    margin-top:170px ;
+    height: 170px;
+}
+
+.div1{
+    float: left;
+}
+
+.div2{
+   margin-top: -45px;
+   float: right;
+   width: 259px;
+   height: 420px;
+   background: linear-gradient(to top,rgba(0, 0, 0, 0.808)50%,rgba(0, 0, 0, 0.808)50%);
+   border-radius: 10px;
+   -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+   top: -20px;
+   padding: 25px;
+   margin-right: 40px;
+}
+
+.div2 h2{
+    color:rgb(146, 101, 135) ;
+    background-color: white;
+    width: 220px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.div2 input{
+    height: 35px;
+    width: 240px;
+    background: transparent;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    border-bottom:2px solid rgb(146, 101, 135) ;
+    color: rgb(255, 255, 255) ;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+}
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background-color:rgb(146, 101, 135) ;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover , .btn:active  {
+    background-color: white;
+    color: rgb(146, 101, 135) ;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.singup{
+    color: rgb(146, 101, 135) ;
+}
+
+
+.link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#link{
+    margin-left: 75px;
+}
+
+
+.div2 table{
+    margin-top: -40px;
+    margin-left: 50px;
+}
+.div2 table td{
+    padding: 8px;
+}
+
+
+
+.maincontact h1{
+    font-size: 40px;
+}
+
+.maincontact p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+.a a:link ,.a a:visited{
+    background-color:rgb(146, 101, 135)  ;
+    padding: 10px 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.a a:hover ,.a a:active{
+    background-color:rgb(138, 120, 133)  ;
+    color: white;
+
+}
+
+/*---------------------phon--------------------------*/
+
+@media screen and (max-width: 400px ){
+    
+    .mainheader nav{
+        float: right;
+        margin-top: 10px;
+        margin-right: -4px;
+    }
+    
+    .mainheader nav td{
+        padding: 6px;
+    }
+    
+    .mainheader nav a{
+        font-size: 20px;
+    }
+
+    .serch{
+        margin-top:10px ;
+        float: right;
+        margin-right: 20px;
+    }
+
+    .body{
+        background-color:rgb(66, 77, 73) ;
+        background-attachment: fixed;
+    }
+    
+
+    .div2{
+        margin-top: 80px;
+       
+     }
+
+    
+}
